@@ -13,6 +13,9 @@
 		EDEBC45A1DE385A0004CD5F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDEBC4581DE385A0004CD5F0 /* Main.storyboard */; };
 		EDEBC45C1DE385A0004CD5F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDEBC45B1DE385A0004CD5F0 /* Assets.xcassets */; };
 		EDEBC45F1DE385A0004CD5F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDEBC45D1DE385A0004CD5F0 /* LaunchScreen.storyboard */; };
+		EDEBC4681DE38899004CD5F0 /* DataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEBC4671DE38899004CD5F0 /* DataHelper.m */; };
+		EDEBC46B1DE38C74004CD5F0 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEBC46A1DE38C74004CD5F0 /* Photo.m */; };
+		EDEBC46E1DE3AAE5004CD5F0 /* PhotoCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDEBC46D1DE3AAE5004CD5F0 /* PhotoCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		EDEBC45B1DE385A0004CD5F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDEBC45E1DE385A0004CD5F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDEBC4601DE385A0004CD5F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDEBC4661DE38899004CD5F0 /* DataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataHelper.h; sourceTree = "<group>"; };
+		EDEBC4671DE38899004CD5F0 /* DataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataHelper.m; sourceTree = "<group>"; };
+		EDEBC4691DE38C74004CD5F0 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		EDEBC46A1DE38C74004CD5F0 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		EDEBC46C1DE3AAE5004CD5F0 /* PhotoCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewController.h; sourceTree = "<group>"; };
+		EDEBC46D1DE3AAE5004CD5F0 /* PhotoCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,12 @@
 				EDEBC4531DE385A0004CD5F0 /* AppDelegate.m */,
 				EDEBC4551DE385A0004CD5F0 /* ViewController.h */,
 				EDEBC4561DE385A0004CD5F0 /* ViewController.m */,
+				EDEBC46C1DE3AAE5004CD5F0 /* PhotoCollectionViewController.h */,
+				EDEBC46D1DE3AAE5004CD5F0 /* PhotoCollectionViewController.m */,
+				EDEBC4661DE38899004CD5F0 /* DataHelper.h */,
+				EDEBC4671DE38899004CD5F0 /* DataHelper.m */,
+				EDEBC4691DE38C74004CD5F0 /* Photo.h */,
+				EDEBC46A1DE38C74004CD5F0 /* Photo.m */,
 				EDEBC4581DE385A0004CD5F0 /* Main.storyboard */,
 				EDEBC45B1DE385A0004CD5F0 /* Assets.xcassets */,
 				EDEBC45D1DE385A0004CD5F0 /* LaunchScreen.storyboard */,
@@ -152,7 +167,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDEBC4571DE385A0004CD5F0 /* ViewController.m in Sources */,
+				EDEBC4681DE38899004CD5F0 /* DataHelper.m in Sources */,
 				EDEBC4541DE385A0004CD5F0 /* AppDelegate.m in Sources */,
+				EDEBC46E1DE3AAE5004CD5F0 /* PhotoCollectionViewController.m in Sources */,
+				EDEBC46B1DE38C74004CD5F0 /* Photo.m in Sources */,
 				EDEBC4511DE385A0004CD5F0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
